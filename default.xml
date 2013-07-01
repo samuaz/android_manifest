@@ -22,13 +22,13 @@
 
   <default revision="jb-mr1.1-release"
            remote="aosp"
-           sync-j="16" />
+           sync-j="4" />
 
   <!-- Android Open Source Project -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="master" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="cts" name="platform/cts" />
+  <project path="cts" name="platform/cts" revision="master" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -274,7 +274,6 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" revision="master" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -365,7 +364,11 @@
   <project path="sdk" name="sdk" remote="cfx-exp" revision="jb-devel-release" />
   <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="system/vold" name="system_vold" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
+  <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
+  <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
 
   <project path="device/samsung/qcom-common" name="codefireXperiment/device_samsung_qcom-common" remote="github" revision="cm-10.1" />
   <project path="device/samsung/msm8960-common" name="codefireXperiment/device_samsung_msm8960-common" remote="github" revision="jb-devel" />
