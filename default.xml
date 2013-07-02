@@ -373,6 +373,7 @@
   <project path="system/security" name="system_security" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel-release" groups="pdk" /> 
+  <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
