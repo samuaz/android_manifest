@@ -36,7 +36,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -154,7 +153,6 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" revision="master" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
@@ -286,10 +284,33 @@
   <!-- External -->
   <project path="external/iw" name="external_iw" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libnl" name="external_libnl" remote="cfx-exp" revision="jb-devel" />
-  <!-- codefireX -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" groups="qcom" />
+  <project path="hardware/qcom/bt" name="OpenSEMC/android_hardware_qcom_bt" remote="github" revision="cm-10.1" groups="qcom" />
+  <project path="hardware/qcom/gps" name="OpenSEMC/android_hardware_qcom_gps" remote="github" revision="cm-10.1" groups="qcom" />
+  <project path="hardware/qcom/media" name="OpenSEMC/android_hardware_qcom_media" remote="github" revision="cm-10.1" groups="qcom" />
+
+  <!-- CyanogenMod -->
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" groups="qcom" />
+
+  <!-- The Muppets -->
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" groups="vendor,htc,muppets" />
+
+  <!-- codefireX-Toolchain -->
+  <project path="external/codefirex/src/binutils" name="toolchain/binutils" revision="master" />
+  <project path="external/codefirex/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/cloog" name="toolchain_cloog" remote ="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/expat" name="toolchain/expat" revision="master" />
+  <project path="external/codefirex/src/gcc/gcc-4.8" name="toolchain_gcc-4.8" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/gcc/gcc-4.9" name="toolchain_gcc-4.9" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/isl" name="toolchain/isl" revision="master" />
+  <project path="external/codefirex/src/mpc" name="toolchain_mpc" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/mpfr" name="toolchain_mpfr" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
 
   <!-- The codefireXperiment -->
   <project path="build" name="build" remote="cfx-exp" revision="jb-devel-release" >
@@ -301,11 +322,13 @@
   <project path="development" name="development" remote="cfx-exp" revision="jb-devel-release" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel-release" groups="device" />
   <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/aac" name="external_aac" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/codefirex" name="external_codefirex" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-release" />
@@ -325,6 +348,7 @@
   <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/srec" name="external_srec" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
@@ -358,6 +382,7 @@
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel" />
+  <project path="packages/apps/Apollo" name="packages_apps_apollo" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Camera" name="packages_apps_camera" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="jb-devel-release" />
@@ -366,6 +391,9 @@
   <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel-release" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3-aosp" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="cfx-exp" revision="jb-devel" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx-exp" revision="jb-devel-release" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx-exp" revision="jb-devel-release" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx-exp" revision="jb-devel-release" groups="pdk,linux,arm" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="sdk" name="sdk" remote="cfx-exp" revision="jb-devel-release" />
   <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
