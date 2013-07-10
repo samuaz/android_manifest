@@ -372,12 +372,7 @@
   <project path="hardware/qcom/media-legacy" name="hardware_qcom_media-legacy" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/display-legacy" name="hardware_qcom_display-legacy" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/audio-legacy" name="hardware_qcom_audio-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" groups="qcom" />
-  <project path="hardware/qcom/bt" name="OpenSEMC/android_hardware_qcom_bt" remote="github" revision="cm-10.1" groups="qcom" />
-  <project path="hardware/qcom/gps" name="OpenSEMC/android_hardware_qcom_gps" remote="github" revision="cm-10.1" groups="qcom" />
-  <project path="hardware/qcom/media" name="OpenSEMC/android_hardware_qcom_media" remote="github" revision="cm-10.1" groups="qcom" />
-  
+
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel" />
