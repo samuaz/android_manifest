@@ -104,8 +104,6 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -204,7 +202,6 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -215,7 +212,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -336,6 +332,8 @@
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="cfx-exp" revision="jb-devel-release" groups="nxp_nfc" />
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-release" />
@@ -379,11 +377,14 @@
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/Apollo" name="packages_apps_apollo" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Camera" name="packages_apps_camera" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/apps/Contacts" name="packages_apps_contacts" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/apps/Nfc" name="packages_apps_nfc" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_contactsprovider" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel-release" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3-aosp" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="cfx-exp" revision="jb-devel" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx-exp" revision="jb-devel-release" groups="pdk,linux,arm" />
