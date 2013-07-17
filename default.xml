@@ -53,7 +53,6 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dbus" name="platform/external/dbus" revision="master" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -71,7 +70,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -285,7 +283,9 @@
   <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" groups="qcom" />
   <project path="hardware/qcom/bt" name="OpenSEMC/android_hardware_qcom_bt" remote="github" revision="cm-10.1" groups="qcom" />
   <project path="hardware/qcom/gps" name="OpenSEMC/android_hardware_qcom_gps" remote="github" revision="cm-10.1" groups="qcom" />
+
   <project path="hardware/qcom/media" name="OpenSEMC/android_hardware_qcom_media" remote="github" revision="cm-10.1" groups="qcom" />
+
 
   <!-- CyanogenMod -->
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" groups="qcom" />
@@ -324,9 +324,11 @@
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/codefirex" name="external_codefirex" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/compiler-rt" name="external_compiler-rt" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/fsck_msdos" name="external_fsck_msdos" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel-release" />
@@ -366,6 +368,7 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel-release" groups="qcom,caf" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cfx-exp" revision="cm-10.1" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="hardware_qcom_media-legacy" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/display-legacy" name="hardware_qcom_display-legacy" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/audio-legacy" name="hardware_qcom_audio-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
@@ -395,8 +398,9 @@
   <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="system/security" name="system_security" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
-  <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel-release" groups="pdk" /> 
+  <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
+  <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
