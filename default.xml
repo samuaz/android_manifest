@@ -175,7 +175,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="master" groups="pdk" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="master" groups="pdk" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" revision="master" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="master" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/mff" name="platform/frameworks/mff" revision="master" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="master" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
