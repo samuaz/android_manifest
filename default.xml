@@ -317,14 +317,14 @@
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-release" groups="kernel,lge,mako" />
 
   <!-- Vendors -->
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel" groups="vendor,asus" />
-  <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel" groups="vendor,moto" />
-  <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel" groups="vendor,broadcom" />
-  <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel" groups="vendor,nvidia" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cfx-exp" revision="jb-devel" groups="vendor,imgtec" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel" groups="vendor,widevine" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel" groups="vendor,invensense" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel" groups="vendor,nxp" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel-release" groups="vendor,asus" />
+  <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel-release" groups="vendor,moto" />
+  <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel-release" groups="vendor,broadcom" />
+  <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel-release" groups="vendor,nvidia" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cfx-exp" revision="jb-devel-release" groups="vendor,imgtec" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel-release" groups="vendor,widevine" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel-release" groups="vendor,invensense" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel-release" groups="vendor,nxp" />
   <project path="vendor/qcom/mako" name="vendor_qcom_mako" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
   <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
