@@ -477,7 +477,7 @@
   <project path="external/yaffs2" name="external_yaffs2" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/zlib" name="external_zlib" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel" />
+  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel-clean" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel" groups="pdk" />
@@ -516,7 +516,7 @@
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/Nfc" name="packages_apps_nfc" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="cfx-exp" revision="jb-devel" />
-  <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel" />
+  <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-clean" />
   <project path="packages/apps/VoicePlus" name="packages_apps_voiceplus" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_contactsprovider" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" remote="cfx-exp" revision="jb-devel" />
