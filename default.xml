@@ -537,10 +537,6 @@
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
   <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="cfx-exp" revision="jb-devel" groups="vendor,samsung" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="cfx-exp" revision="jb-devel" groups="vendor,oppo,find5" />
-  <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel" groups="vendor,tmobile" />
-  <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel" groups="vendor,tmobile" />
-  <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel" groups="vendor,tmobile" />
-
 
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/msm8960-common" name="codefireXperiment/device_samsung_msm8960-common" remote="github" revision="jb-devel" />
