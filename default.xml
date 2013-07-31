@@ -480,7 +480,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel-clean" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" remote="cfx-exp" revision="jb-devel" />
-  <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel-clean" groups="pdk" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/rs" name="frameworks_rs" remote="cfx-exp" revision="jb-devel" />
