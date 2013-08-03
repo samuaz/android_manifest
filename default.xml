@@ -333,15 +333,6 @@
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="development" name="development" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device" />
-  <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,ace" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
-  <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
-  <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,mako" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,manta" />
-  <project path="device/oppo/find5" name="device_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,oppo,find5" />
   <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/aac" name="external_aac" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -409,10 +400,6 @@
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="hardware_qcom_media-legacy" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="omap4" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,m7" />
-  <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,ace" />
-  <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,oppo,find5" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -442,11 +429,7 @@
   <project path="system/security" name="system_security" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,ace" />
-  <project path="vendor/lge/mako" name="vendor_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,mako" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,qcom" />
-  <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
-  <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,oppo,find5" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
