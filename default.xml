@@ -20,7 +20,7 @@
   <remote  name="linaro-android"
            fetch="git://android.git.linaro.org" />
 
-  <default revision="jb-mr2-release"
+  <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
@@ -521,6 +521,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_nfc" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/apps/Torch" name="packages_apps_torch" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/VoicePlus" name="packages_apps_voiceplus" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_contactsprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
