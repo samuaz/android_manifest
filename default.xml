@@ -363,6 +363,10 @@
   <project path="device/moto/wingray" name="device_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  
+  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+
+
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,oppo,find5" />
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung" />
@@ -535,6 +539,13 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
+
+  <!-- samuaz - motorola -->
+  <project path="device/motorola/qcom-common" name="samuaz/android_device_motorola_qcom-common" remote="github" revision="cm-10.2" />
+  <project path="device/motorola/msm8960-common" name="samuaz/android_device_motorola_msm8960-common" remote="github" revision="cm-10.2" />
+  <project path="device/motorola/mb886" name="samuaz/android_device_motorola_mb886" remote="github" revision="cm-10.2" />
+  <project path="vendor/motorola" name="samuaz/proprietary_vendor_motorola" remote="github" revision="cm-10.2" />
+  <project path="kernel/motorola/msm8960-common" name="samuaz/android_kernel_motorola_msm8960-common" remote="github" revision="cm-10.2" />
 
   <!-- OpenSEMC -->
   <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.2" groups="device,sony,common"/>
