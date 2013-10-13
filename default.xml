@@ -25,7 +25,6 @@
            sync-j="4" />
 
   <!-- Android Open Source Project -->
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
@@ -61,7 +60,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/doclava" name="platform/external/doclava" />
@@ -196,7 +194,6 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -339,6 +336,7 @@
   <project path="toolchain/src/texinfo" name="toolchain_texinfo" remote="cfx-exp" revision="jb-devel" />
 
   <!-- codefireXperiment -->
+  <project path="abi/cpp" name="abi_cpp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="build" name="build" remote="cfx-exp" revision="jb-devel-mr2-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -388,6 +386,7 @@
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/compiler-rt" name="external_compiler-rt" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="external/conscrypt" name="external_conscrypt" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -450,8 +449,11 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/audio-jb_26" name="hardware_qcom_audio-jb_26" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/display-jb_26" name="hardware_qcom_display-jb_26" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/media-jb_26" name="hardware_qcom_media-jb_26" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="omap4" />
@@ -464,7 +466,7 @@
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,gee" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,xoom" />
-  <project path="kernel/oppo/find5" name="maxwen/android_kernel_oppo_find5" remote="github" revision="jb-mr2" groups="kernel,oppo,find5" />
+  <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,oppo,find5" />
   <project path="kernel/samsung/dempsey" name="kernel_samsung_dempsey" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,infuse4g" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
   <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
@@ -542,8 +544,9 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
-
-  <!-- samuaz - motorola -->
+  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="github" revision="cm-10.2" groups="qcom_msm8960" />
+  
+ <!-- samuaz - motorola -->
   <project path="device/motorola/qcom-common" name="samuaz/android_device_motorola_qcom-common" remote="github" revision="cm-10.2" />
   <project path="device/motorola/msm8960-common" name="samuaz/android_device_motorola_msm8960-common" remote="github" revision="cm-10.2" />
   <project path="device/motorola/mb886" name="samuaz/android_device_motorola_mb886" remote="github" revision="cm-10.2" />
