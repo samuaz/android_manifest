@@ -117,7 +117,6 @@
   <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
@@ -232,7 +231,6 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
@@ -356,6 +354,7 @@
   <project path="device/htc/jewel" name="device_htc_jewel" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
   <project path="device/htc/evita" name="device_htc_evita" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
   <project path="device/htc/ville" name="device_htc_ville" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
+  <project path="device/htc/fireball" name="jrior001/cfx_device_htc_fireball" remote="github" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/lge/e970" name="device_lge_e970" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,gee" />
@@ -406,6 +405,7 @@
   <project path="external/libnl" name="external_libnl" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/libvpx" name="external_libvpx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/libminiz" name="external_libminiz" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -455,6 +455,7 @@
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media-jb_26" name="hardware_qcom_media-jb_26" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="omap4" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,flo" />
@@ -471,8 +472,6 @@
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
   <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Apollo" name="packages_apps_apollo" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Bluetooth" name="packages_apps_bluetooth" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -491,6 +490,9 @@
   <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/VoicePlus" name="packages_apps_voiceplus" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/inputmethods/PinyinIME" name="packages_inputmethods_pinyinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_contactsprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -540,13 +542,13 @@
   <!-- CyanogenMod -->
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="github" revision="cm-10.2" groups="qcom_msm8960" />
-  
- <!-- samuaz - motorola -->
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-10.2" />
+
+  <!-- samuaz - motorola -->
   <project path="device/motorola/qcom-common" name="samuaz/android_device_motorola_qcom-common" remote="github" revision="cm-10.2" />
   <project path="device/motorola/msm8960-common" name="samuaz/android_device_motorola_msm8960-common" remote="github" revision="cm-10.2" />
   <project path="device/motorola/mb886" name="samuaz/android_device_motorola_mb886" remote="github" revision="cm-10.2" />
@@ -563,4 +565,8 @@
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.2" groups="vendor,sony,nozomi" />
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-10.2" groups="vendor,broadcom" />
+
+  <!-- RaymanFX -->
+  <project path="device/asus/tf300t" name="RaymanFX/android_device_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="device,asus,tf300t" />
+  <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="kernel,asus,tf300t" />
 </manifest>
